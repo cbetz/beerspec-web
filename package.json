@@ -1,0 +1,23 @@
+{
+  "name": "beerspec-web",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "app.js"
+  },
+  "dependencies": {
+    "express": "3.0.4"
+  },
+  "subdomain": "beerspec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbetz/beerspec-web.git"
+  },
+  "engines": {
+    "node": ">=0.6"
+  },
+  "domains": [
+    "beerspec.com",
+    "www.beerspec.com"
+  ]
+}
